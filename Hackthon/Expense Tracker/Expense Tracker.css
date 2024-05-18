@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+  }
+  h1{
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px  #000;
+    
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid ;
+  }
+  
+  th {
+    background-color:lightblue;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  .form-group{
+    margin-bottom: 10px;
+  }
+  label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  input{
+    width:95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:2px solid grey;
+    border-radius: 15px;
+  }
+  button {
+    background-color:rgb(4, 129, 4);
+    color:black;
+    padding: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .container{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+  }
+  .actions{
+    display: flex;
+    gap: 10px;
+  }
+  .actions button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions .edit {
+    background-color:rgb(95, 241, 95);
+    color: white;
+}
+
+.actions .delete {
+    background-color: #dc3545;
+    color: white;
+}
+   

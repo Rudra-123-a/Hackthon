@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:grey;
+}
+
+canvas {
+    border: 5px solid #000;
+    background-color: palevioletred;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.canvas-container {
+    padding-top: 20px; 
+    text-align: center; 
+}
